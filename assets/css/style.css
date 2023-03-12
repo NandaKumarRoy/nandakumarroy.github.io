@@ -56,11 +56,7 @@ body{
 background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 100%);
     overflow: hidden;
 }
-#banner-right-img
-{
-width: 660px;
-    height: 757px;
-}
+
 .header-con{
     padding-top: 30px;
     padding-bottom: 30px;
@@ -1435,6 +1431,7 @@ width: 660px;
 }
 .banner-right-con img[alt="banner-right-img"]{
     animation: right-mover 1s ease-in-out infinite alternate;
+    width:660px;
 }
 .blog-model-con p{
     margin-bottom: 60px !important;
